@@ -1,0 +1,47 @@
+@font-face {
+    font-family: dandelion;
+    src: url(dandelion.woff);
+}
+
+* {
+    background-image: url("background.jpg");
+    color: gray;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: cornflowerblue;
+    box-shadow: 5px 5px 2px #888888;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: dandelion;
+}
+
+li {
+    font-size: 0.8em;
+}
+
+img {
+    border-radius: 70%;
+    width: 140px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.cat {
+    border-style: dotted solid;
+}
+
+.presentation p {
+    font-size: 1em;
+    text-align: center;
+}
+
+.photo {
+    text-align: right;
+    float: top;
+}
