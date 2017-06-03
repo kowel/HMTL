@@ -46,6 +46,8 @@ li:hover {
     margin-top: 60px;
     margin-bottom: 60px;
     text-align:center;
+    display: flex;
+    justify-content: center;
   }
 
   .btn {
@@ -59,10 +61,13 @@ li:hover {
     margin: 5px;
     text-decoration: none;
     transition: .5s ease;
+    display: flex;
+  align-items: center;
+  justify-content: center;
   }
 
   .btn:hover {
-    transform: rotate(80deg);
+    transform: rotate(360deg);
   }
 
 .btn-facebook {
