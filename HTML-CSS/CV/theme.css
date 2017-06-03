@@ -31,7 +31,14 @@ img {
     height: 200px;
     border: 2px solid black;
 }
-
+.presentation {
+    display: flex;
+    flex-direction: row;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
 .cat {
     border-style: dotted solid;
 }
@@ -43,5 +50,4 @@ img {
 
 .photo {
     text-align: right;
-    float: top;
 }

@@ -1,0 +1,77 @@
+header {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align:center;
+}
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  font-family: "lato";
+}
+
+li {
+  list-style-type:none;
+  color: gray;
+  display: block;
+  margin: 1em;
+}
+
+li:hover {
+  background-color: gray;
+  color: white;
+  font-size: 1.1em;
+}
+
+.cv {
+  background: rgba(142, 142, 142, .05);
+  width: 600px;
+  margin: auto auto;
+  margin-right: auto;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.photo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-image: url("img/DSC00224.JPG");
+  background-size: cover;
+  background-position: center;
+  }
+
+  .social {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align:center;
+  }
+
+  .btn {
+    border-radius: 50%;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    transition: .5s ease;
+  }
+
+  .btn:hover {
+    transform: rotate(80deg);
+  }
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-twitter {
+  background-color: #00b2ff;
+}
+
+.btn-linkedin {
+  background-color: #0077B5;
